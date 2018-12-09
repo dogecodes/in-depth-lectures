@@ -1,0 +1,67 @@
+pros
+  * good for big apps
+  * clear separation of view and data
+  * less boilerplate
+  * easier to create new apps
+  * easy to replace redux with apollo/mobx/etc
+
+cons
+  * middle (but not low) coupling between React and Redux
+
+Redux Ducks: https://github.com/erikras/ducks-modular-redux
+
+Modules
+
+.
+├── components
+│   ├── User.js
+│   ├── Avatar.js
+│   ├── Chat.js
+│   ├── Message.js
+│   └── ...
+├── containers
+│   ├── UserPage.js
+│   ├── ChatPage.js
+│   └── ...
+├── modules
+│   ├── users
+│   │   ├── types.js
+│   │   ├── actions.js
+│   │   ├── reducer.js
+│   │   └── selector.js
+│   ├── chats
+│   │   ├── types.js
+│   │   ├── actions.js
+│   │   ├── reducer.js
+│   │   └── selector.js
+│   └── index.js
+├── store
+│   ├── store.dev.js
+│   ├── store.prod.js
+│   └── index.js
+└── index.js
+
+Apps
+
+.
+├── components
+│    ...
+├── apps
+│   ├── Users
+│   │   ├── UserPage.js
+│   │   ├── types.js
+│   │   ├── actions.js
+│   │   ├── reducer.js
+│   │   └── selector.js
+│   ├── Chats
+│   │   ├── ChatPage.js
+│   │   ├── types.js
+│   │   ├── actions.js
+│   │   ├── reducer.js
+│   │   └── selector.js
+│   └── index.js
+├── store
+│   ├── store.dev.js
+│   ├── store.prod.js
+│   └── index.js
+└── index.js

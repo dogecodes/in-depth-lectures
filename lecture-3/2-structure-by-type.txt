@@ -1,0 +1,39 @@
+pros
+  * good for small apps
+  * clear separation of concerns
+  * flat project structure (short imports)
+
+cons
+  * High coupling between React and Redux
+  * Tons of boilerplate
+  * Hard to read
+  * Need to jump between folders often
+
+.
+├── actions
+│   ├── users.js
+│   └── chats.js
+├── types
+│   ├── users.js
+│   └── chats.js
+├── components
+│   ├── User.js
+│   ├── Avatar.js
+│   ├── Chat.js
+│   ├── Message.js
+│   └── ...
+├── containers
+│   ├── UserPage.js
+│   ├── ChatPage.js
+│   └── ...
+├── reducers
+│   ├── users.js
+│   └── chats.js
+├── selectors
+│   ├── users.js
+│   └── chats.js
+├── store
+│   ├── store.dev.js
+│   ├── store.prod.js
+│   └── index.js
+└── index.js

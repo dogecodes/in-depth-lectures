@@ -1,0 +1,26 @@
+Redux Separate
+
+pros
+  * good for big apps
+  * clear separation of react and redux
+  * internal redux structure is up to you
+  * easy to replace redux with apollo/mobx/etc
+
+cons
+  * possible problems with reading code
+  * low coupling might increase complexity
+
+.
+├── components
+│   ├── User.js
+│   ├── Avatar.js
+│   ├── Chat.js
+│   ├── Message.js
+│   └── ...
+├── containers
+│   ├── UserPage.js
+│   ├── ChatPage.js
+│   └── ...
+├── redux
+│   └── ...
+└── index.js

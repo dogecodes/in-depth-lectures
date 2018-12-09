@@ -22,7 +22,7 @@
 * Пример с `co()`.
 * Коротко о `Proxy` и `Reflect`.
 
-## [Лекция 2](https://github.com/dogecodes/in-depth-lectures/tree/master/lecture-0)
+## [Лекция 2](https://github.com/dogecodes/in-depth-lectures/tree/master/lecture-2)
 
 * High Ordered Functions. `.map`, `.filter`, `.forEach`, `.reduce`, `.every`, `.some`, `.find`, etc.
 * `Array.from`, `Array.of`.
@@ -33,9 +33,12 @@
 * Иммутабельность. Библиотека [Immutable.js](https://facebook.github.io/immutable-js/).
 * Мемоизация. `PureComponent`, `pure(() => {})`. Библиотека [reselect](https://github.com/reduxjs/reselect).
 
-## Лекция 3
+## [Лекция 3](https://github.com/dogecodes/in-depth-lectures/tree/master/lecture-3)
 
-TODO
+* Подходы к структурированию приложений.
+* Cтруктурированию по типу.
+* Cтруктурированию по модулям. Подход redux-ducks и другие.
+* Работа с селекторами, как структурировать редьюсеры.
 
 ## Лекция 4
 
