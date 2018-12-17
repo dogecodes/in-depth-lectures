@@ -40,9 +40,14 @@
 * Cтруктурированию по модулям. Подход redux-ducks и другие.
 * Работа с селекторами, как структурировать редьюсеры.
 
-## Лекция 4
+## [Лекция 4](https://github.com/dogecodes/in-depth-lectures/tree/master/lecture-4)
 
-TODO
+* Thunks.
+* Sagas.
+* Observables.
+* MobX.
+* Render props.
+* React Context API
 
 ## Лекция 5
 
