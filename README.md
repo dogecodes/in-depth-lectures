@@ -49,9 +49,12 @@
 * Render props.
 * React Context API
 
-## Лекция 5
+## [Лекция 5](https://github.com/dogecodes/in-depth-lectures/tree/master/lecture-5)
 
-TODO
+* Bundling projects: Webpack, Rollup, Parcel.
+* Static type checkers: TypeScript, Flow, etc.
+* Bundling best practices.
+* Monorepo. Lerna.
 
 ## Лицензия
 
